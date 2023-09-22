@@ -1,13 +1,20 @@
-let nombre = prompt("Inresa tu nombre");
-
-while (nombre === "") {
-    alert("Ingresa un nombre por favor");
+//pide nombre al usuario y si no escribe nada o no es un string, vuelve a pedir nombre hasta que lo ponga
+let nombre = prompt("Ingresa tu nombre");
+while (nombre === "" || !isNaN(nombre) ) {
+    alert("Ingresa un nombre valido por favor.");
     nombre = prompt("Ingresa tu nombre");
 }
+//pide edad al usuario y si no es un numero o no pone nada, lo pide hasta que ponga 
+let edad= prompt("Ingresa tu edad")
+while (isNaN(edad) || edad==="") {
+    alert("Ingresa una edad valida por favor.");
+    edad = prompt("Ingresa edad");
+}
+
 
 function calculador(operacion) {
     switch (operacion) {
-        case 1:
+        case "vacaciones":
             let diasVacaciones;
             do {
                 diasVacaciones = parseInt(prompt("Ingresa la cantidad de días que te tomas por vacaciones"));
@@ -22,7 +29,7 @@ function calculador(operacion) {
             let resultadoFinalVacaciones = calculoVacaciones * diasVacaciones;
             alert(`Te corresponden $${resultadoFinalVacaciones.toLocaleString()} por los ${diasVacaciones} dias de vacaciones.`);
             break;
-        case 2:
+        case "aguinaldo":
             let mejorSalario;
             do {
                 mejorSalario = parseInt(prompt("Ingresa tu mayor sueldo en el ultimo semestre. (Sin puntos ni comas)"));
@@ -31,17 +38,36 @@ function calculador(operacion) {
             let aguinaldo= mejorSalario/2
             alert (`Tu aguinaldo debe ser de $${aguinaldo.toLocaleString()} aproximadamente.`)
             break;
-        case 3:
+        case "indemnizacion":
             alert("Función de Indemnización aún no implementada");
             break;
     }
+//clase constructora que devuelve un objeto con el nombre, edad y que operacion realizo el usuario, 
+//todo eso lo guarda en un array usuario.
+class Usuario {
+    constructor(nombre, edad, operacion) {
+        this.nombre = nombre,
+        this.edad = edad,
+        this.operacion = operacion;
+    }
 }
+
+const usuario = []
+const usuario1= new Usuario(nombre, edad, operacion);    
+
+usuario.push(usuario1)
+console.log(usuario);
+
+
+}
+
+
 
 do {
     let operacion;
     do {
-        operacion = parseInt(prompt(`Hola ${nombre}, elige el número de operación que deseas realizar.\n1: Vacaciones \n2: Aguinaldo \n3: Indemnización`));
-    } while (operacion !== 1 && operacion !== 2 && operacion !== 3);
+        operacion = prompt(`Hola ${nombre}, escribi la operacion que deseas realizar.\n\n Vacaciones \n Aguinaldo \n Indemnización`).toLowerCase();
+    } while (operacion !== "vacaciones" && operacion !== "aguinaldo" && operacion !== "indemnizacion");
 
     calculador(operacion);
 
@@ -50,3 +76,7 @@ do {
         break; 
     }
 } while (true); 
+
+
+
+
