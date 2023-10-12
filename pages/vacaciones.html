@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4cfef7b8c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <title>Vacaciones</title>
+</head>
+<body>
+
+    <div id="barraNavegacion">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item light">
+                            <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown  navbar-dark">
+                            <a class="nav-link dropdown-toggle active" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Operaciones
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item bg-light" href="./vacaciones.html">Vacaciones</a></li>
+                                <li><a class="dropdown-item bg-light" href="./aguinaldo.html">Aguinaldo</a></li>
+                                
+                                <li><a class="dropdown-item bg-light" href="./indemnizacion.html">Indemnizacion</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="" tabindex="-1" aria-disabled="true">Sugerir Opereciones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="divImagen">
+        <div id="imagenInicio">
+            <img id ="fotoInicio" src="https://assets.contenthub.wolterskluwer.com/api/public/content/ce7664c93bbd41bd9ed9663c29388aec" alt="vacaciones" height="0%" width="75%">
+        </div>
+    </div>
+<div class="infoVacaciones">
+    <h6>¿Cómo se establecen los días de vacaciones en Argentina?</h6>
+    <ul class="antiguedad1">
+        <li class="antiguedad">Antigüedad menor a 6 meses: les corresponde 1 día de vacaciones por cada 20 días trabajados.</li>
+        <li class="antiguedad">Antigüedad mayor a 6 meses y hasta 5 años: tendrán <b class="nolose">14 días corridos de vacaciones.</b> </li>
+        <li class="antiguedad">Antigüedad mayor a 5 años y hasta 10 años: tendrán <b class="nolose">21 días corridos de vacaciones.</b></li>
+        <li class="antiguedad">Antigüedad mayor a 10 años y hasta 20 años: tendrán <b class="nolose">28 días corridos de vacaciones.</b></li>
+        <li class="antiguedad">Antigüedad mayor a 20 años: tendrán <b class="nolose">35 días corridos de vacaciones.</b></li>
+    </ul>
+    <p class="nolose"><b class="nolose">Las vacaciones deberán otorgarse entre el 1 de octubre y el 30 de abril del siguiente año.</b></p>
+
+</div>
+<div id="cajaVacaciones">
+    <p id="textoDias">Ingrese cuantos dias le corresponden de vacaciones:<input type="number" min="0" max="50" value="" id="inputDias"> </p>
+    <p id="textoSueldo">Ingrese su ultimo salario neto<p id="puntosComas"> (sin puntos ni comas)</p><input type="number" value="" id="inputSalario"> </p>
+    <button id="btnCalcular" class="btn btn-outline-primary" type="submit">Calcular</button>
+</div>
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSh-wrQu254qFaRcoYktJ5QmUhmuUedlbeMaQeaozAVD4lh4ICsGdBNubZ8UlMvWjKC" alt="codigoQR">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2 class="siguenos">CONTACTO</h2>
+            <div class="contacto">
+                <h4 class="numeroTelefono"><i class="fa-solid fa-phone"></i>+54 9 11 6462-7830</h4>
+                <h4 class="mail"><i class="fa-solid fa-envelope"></i></i>punigonzalez07@gmail.com</h4>
+            </div>
+        </div>
+        <div class="box">
+            <h2 class="siguenos">SEGUINOS</h2>
+            <div class="red-social">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/home?lang=es" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/shorts/wEIHKqFEiEY" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2023 <b>- Punigonzalez</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="vacaciones.js"></script>
+</body>
+</html>

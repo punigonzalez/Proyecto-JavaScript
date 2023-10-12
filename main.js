@@ -61,8 +61,6 @@ console.log(usuario);
 
 }
 
-
-
 do {
     let operacion;
     do {

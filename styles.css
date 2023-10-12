@@ -1,7 +1,467 @@
-*{
-    background-color: #063970;
-    color: white;
+* {
+    margin: 0%;
+    padding: 0;
+    background-color: white;
 }
-h1 {
+body{
+    background-color: white;
+}
+.container-fluid{
+    background-color: rgb(28,62,93);
+}
+.navbar {
+    background-color: rgb(28,62,93);
+}
+.navbar-brand {
+    background-color: rgb(28,62,93);
+}
+.collapse {
+    background-color:rgb(28,62,93);
+}
+.nav-link {
+    background-color: rgb(28,62,93);
+}
+.d-flex{
+    background-color: rgb(28,62,93);
+}
+
+#carouselExampleSlidesOnly {
+    margin-top: 2px
+}
+
+
+
+.btn{
+    border-style: solid;
+    border-color: #79B6EB;
+    color: black;
+    background-color: #79B6EB;
+}
+#titulo{
     text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    background-color: #fff;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    
+}
+
+
+
+
+h5{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 2px 2px 2px;
+    margin-bottom: 15px;
+    
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: greenyellow;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+    border-color: aliceblue;
+}
+#imagenInicio {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.d-block{
+    height: 800px;
+}
+
+#imagenInicio {
+    background-color: #fff;
+    margin-top: 2%;
+}
+
+.card-title {
+    color: black;
+}
+.card-text{
+    color: black;
+}
+
+.card-header {
+    color: black;
+}
+.col-sm-3 {
+    background-color: #fff;
+}
+
+.card-body{
+    background-color: #fff;
+}
+.row {
+    justify-content: center;
+    padding-top: 15px;
+    margin-bottom: 25%;
+    background-color: #fff;
+    
+}
+
+
+
+.card-title{
+    background-color: #fff;
+}
+
+p{
+    color: black;
+    margin: 2% 0% 0 0%;
+}
+.card-text{
+    background-color: #fff;
+}
+/*VACACIONES*/
+/*Como se establecen los dias de vacacioens en arg?*/
+.vacacionesTextoFoto {
+    font-family: 'Exo', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    padding:2% 22% 0% 22%;
+    background-color: #fff;
+
+}
+
+.infoVacaciones {
+    text-align: left;
+    margin: 2% 15% 0 24%;
+    background-color: #fff;
+}
+h6 {
+    color: black;
+    font-size: 37px;
+    background-color: #fff;
+}
+
+.antiguedad1 {
+    background-color: #fff;
+
+}
+.antiguedad{
+    background-color: #fff;
+} 
+#cajaVacaciones {
+    border-style: solid;
+    border-color:#79B6EB ;
+    margin:2% 27% 50px 30%;
+    
+}
+
+.nolose {
+    background-color: #fff;
+}
+
+#textoDias{
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*AGUINALDO*/
+
+.aguinaldoTextoFoto {
+    font-family: 'Exo', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 1000;
+    text-align: left;
+    padding:2% 22% 0% 22%;
+    background-color: #fff;
+
+}
+
+
+#cajaAguinaldo {
+        border-style: solid;
+        border-color: #79B6EB;
+        margin:2% 20% 50px 20%;
+        
+        
+    }
+
+
+#textoDate {
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    background-color:rgb(28,62,93);
+    
+    
+}
+#textoSemestre{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    background-color:  rgb(28,62,93);
+   
+    
+    
+}
+
+#textoAñoCalcular {
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    background-color:  rgb(28,62,93);
+    
+    
+}
+#textoSalario{
+    
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    background-color: rgb(28,62,93);
+    display: inline-block;
+    
+}
+
+
+
+#puntosComasAg{
+    margin-top: 50px;
+    display: inline;
+    background-color:#6ec709 
+}
+#btnCalcularAguinaldo{
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.btnReiniciar {
+    color: black;
+    background-color: greenyellow;
+}
+
+.colorOpcionesAg{
+    border-style: solid;
+    height: 25px;
+    width: 10px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+
+#textoSueldo {
+    margin-left: 50px;
+
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+#puntosComas{
+    padding: 0%;
+    margin: 0;
+    font-size: 14px;
+    color:rgb(212, 208, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+#inputDias {
+    border-style: solid;
+    height: 25px;
+    width: 45px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+#inputSalario {
+    border-style: solid;
+    height: 25px;
+    width: 150px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    display: inline
+}
+
+
+#inputDate {
+    border-style: solid;
+    height: 25px;
+    width: 110px;
+    color: black;
+    margin-left: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+#inputSueldo {
+    border-style: solid;
+    height: 25px;
+    width: 150px;
+    color: black;
+    margin-left: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+#inputAñoCalcular {
+    border-style: solid;
+    height: 25px;
+    width: 90px;
+    color: black;
+    margin-left: 5px;
+    font-size: 15px;
+    display: inline;
+
+}
+#lang {
+    background-color: white;
+}
+#btnCalcular {
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.operacionesSugeridas {
+    border-style: solid;
+    border-color: greenyellow;
+    margin:2% 2% 50px 2%;
+}
+
+/*FOOTER*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(28,62,93);
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color:  rgb(28,62,93);
+}
+.pie-pagina .grupo-1{
+    background-color: rgb(28,62,93);
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.siguenos {
+    text-align: left;
+    background-color: #0a141d;  
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28,62,93);
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color:white ;
+    margin-bottom: 25px;
+    font-size: 20px;
+    background-color:rgb(28,62,93);
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    background-color:rgb(28,62,93);
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:greenyellow;
+    margin-right: 10px;
+    background-color: rgb(28,62,93);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color:rgb(34, 57, 78);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+    background-color:rgb(34, 57, 78);
+}
+b{
+    background-color:rgb(34, 57, 78);
+}
+.contacto {
+    display: inline;
+    justify-content: left;
+    
+}
+.fa-solid {
+    color: greenyellow;
+    margin-right: 5%;
+    background-color: rgb(28,62,93);
+}
+
+i {
+    background-color: rgba(5,10,30,255);
+    margin:1% 0 0 2%;
+}
+.numeroTelefono {
+    font-size: 15px;
+    color: white;
+    
+
+}
+.mail{
+    font-size: 15px;
+    color: white;
+    
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
 }
